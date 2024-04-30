@@ -12,5 +12,6 @@ basic.showNumber(getal)
 basic.forever(function () {
     if (getal == 9) {
         getal = 0
+        basic.showNumber(getal)
     }
 })
